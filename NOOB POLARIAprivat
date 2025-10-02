@@ -1,0 +1,719 @@
+--[=[
+ d888b  db    db d888888b      .d888b.      db      db    db  .d8b.  
+88' Y8b 88    88   `88'        VP  `8D      88      88    88 d8' `8b 
+88      88    88    88            odD'      88      88    88 88ooo88 
+88  ooo 88    88    88          .88'        88      88    88 88~~~88 
+88. ~8~ 88b  d88   .88.        j88.         88booo. 88b  d88 88   88 
+ Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER FROM MorrisBr
+]=]
+
+
+-- Instances: 419 | Scripts: ?? | Modules: ??
+
+local G2L = {}
+
+-- Require G2L wrapper
+local G2L_REQUIRE = require;
+local G2L_MODULES = {};
+local function require(Module:ModuleScript)
+    local ModuleState = G2L_MODULES[Module];
+    if ModuleState then
+        if not ModuleState.Required then
+            ModuleState.Required = true;
+            ModuleState.Value = ModuleState.Closure();
+        end
+        return ModuleState.Value;
+    end;
+    return G2L_REQUIRE(Module);
+end
+
+
+--[[
+    Instances:
+--]]
+
+--po
+G2L["0"] = Instance.new("ScreenGui")
+
+--po.main
+G2L["1"] = Instance.new("ScreenGui")
+
+--po.main.top
+G2L["2"] = Instance.new("Frame")
+
+--po.main.top.title
+G2L["3"] = Instance.new("TextLabel")
+
+--po.main.top.close
+G2L["4"] = Instance.new("TextButton")
+
+--po.main.top.close.Close
+G2L["5"] = Instance.new("LocalScript")
+
+--po.main.top.maximize
+G2L["6"] = Instance.new("TextButton")
+
+--po.main.top.maximize.LocalScript
+G2L["7"] = Instance.new("LocalScript")
+
+--po.main.top.minimize
+G2L["8"] = Instance.new("TextButton")
+
+--po.main.top.minimize.LocalScript
+G2L["9"] = Instance.new("LocalScript")
+
+--po.main.top.Holder
+G2L["10"] = Instance.new("Frame")
+
+--po.main.top.Holder.Home
+G2L["11"] = Instance.new("TextButton")
+
+--po.main.top.Holder.Home.LocalScript
+G2L["12"] = Instance.new("LocalScript")
+
+--po.main.top.Holder.Server
+G2L["13"] = Instance.new("TextButton")
+
+--po.main.top.Holder.Server.LocalScript
+G2L["14"] = Instance.new("LocalScript")
+
+--po.main.top.Holder.Scripts
+G2L["15"] = Instance.new("TextButton")
+
+--po.main.top.Holder.Scripts.LocalScript
+G2L["16"] = Instance.new("LocalScript")
+
+--po.main.top.Holder.homepage
+G2L["17"] = Instance.new("Frame")
+
+--po.main.top.Holder.homepage.br
+G2L["18"] = Instance.new("TextLabel")
+
+--po.main.top.Holder.homepage.user
+G2L["19"] = Instance.new("TextLabel")
+
+--po.main.top.Holder.homepage.user.LocalScript
+G2L["20"] = Instance.new("LocalScript")
+
+--po.main.top.Holder.homepage.br2
+G2L["21"] = Instance.new("TextLabel")
+
+--po.main.top.Holder.homepage.age
+G2L["22"] = Instance.new("TextLabel")
+
+--po.main.top.Holder.homepage.age.LocalScript
+G2L["23"] = Instance.new("LocalScript")
+
+--po.main.top.Holder.homepage.br3
+G2L["24"] = Instance.new("TextLabel")
+
+--po.main.top.Holder.homepage.f
+G2L["25"] = Instance.new("TextLabel")
+
+--po.main.top.Holder.homepage.f.Script
+G2L["26"] = Instance.new("Script")
+
+--po.main.top.Holder.homepage.user
+G2L["27"] = Instance.new("ImageLabel")
+
+--po.main.top.Holder.homepage.user.LocalScript
+G2L["28"] = Instance.new("LocalScript")
+
+--po.main.top.Holder.homepage.svrtime
+G2L["29"] = Instance.new("TextLabel")
+
+--po.main.top.Holder.homepage.svrtime.script
+G2L["30"] = Instance.new("LocalScript")
+
+--po.main.top.Holder.homepage.realtime
+G2L["31"] = Instance.new("TextLabel")
+
+--po.main.top.Holder.homepage.realtime.script
+G2L["32"] = Instance.new("LocalScript")
+
+--po.main.top.Holder.homepage.jobid
+G2L["33"] = Instance.new("TextLabel")
+
+--po.main.top.Holder.homepage.jobid.script
+G2L["34"] = Instance.new("LocalScript")
+
+--po.main.top.Holder.homepage.placeid
+G2L["35"] = Instance.new("TextLabel")
+
+--po.main.top.Holder.homepage.placeid.Script
+G2L["36"] = Instance.new("Script")
+
+--po.main.top.Holder.homepage.idk
+G2L["37"] = Instance.new("TextLabel")
+
+--po.main.top.Holder.homepage.idk.Script
+G2L["38"] = Instance.new("Script")
+
+--po.main.top.Holder.homepage.progress
+G2L["39"] = Instance.new("TextLabel")
+
+--po.main.top.Holder.homepage.progress.LocalScript
+G2L["40"] = Instance.new("LocalScript")
+
+--po.main.top.Holder.serverpage
+G2L["41"] = Instance.new("Frame")
+
+--po.main.top.Holder.serverpage.UnAnchor
+G2L["42"] = Instance.new("TextButton")
+
+--po.main.top.Holder.serverpage.UnAnchor.Script
+G2L["43"] = Instance.new("Script")
+
+--po.main.top.Holder.serverpage.c00lkidd
+G2L["44"] = Instance.new("TextButton")
+
+--po.main.top.Holder.serverpage.c00lkidd.Script
+G2L["45"] = Instance.new("Script")
+
+--po.main.top.Holder.serverpage.c00lkidd.LocalScript
+G2L["46"] = Instance.new("LocalScript")
+
+--po.main.top.Holder.serverpage.c00lkidd.hax
+G2L["47"] = Instance.new("RemoteEvent")
+
+--po.main.top.Holder.serverpage.BasePlate
+G2L["48"] = Instance.new("TextButton")
+
+--po.main.top.Holder.serverpage.BasePlate.Script
+G2L["49"] = Instance.new("Script")
+
+--po.main.top.Holder.serverpage.BasePlate.SpawnEvent
+G2L["50"] = Instance.new("RemoteEvent")
+
+--po.main.top.Holder.serverpage.BasePlate.LocalScript
+G2L["51"] = Instance.new("LocalScript")
+
+--po.main.top.Holder.serverpage.Kill All
+G2L["52"] = Instance.new("TextButton")
+
+--po.main.top.Holder.serverpage.Kill All.Script
+G2L["53"] = Instance.new("Script")
+
+--po.main.top.Holder.serverpage.Clear Terrain
+G2L["54"] = Instance.new("TextButton")
+
+--po.main.top.Holder.serverpage.Clear Terrain.Script
+G2L["55"] = Instance.new("Script")
+
+--po.main.top.Holder.serverpage.Disco
+G2L["56"] = Instance.new("TextButton")
+
+--po.main.top.Holder.serverpage.Disco.Script
+G2L["57"] = Instance.new("Script")
+
+--po.main.top.Holder.serverpage.Anti
+G2L["58"] = Instance.new("TextButton")
+
+--po.main.top.Holder.serverpage.Anti.Script
+G2L["59"] = Instance.new("Script")
+
+--po.main.top.Holder.serverpage.rain
+G2L["60"] = Instance.new("TextButton")
+
+--po.main.top.Holder.serverpage.rain.Script
+G2L["61"] = Instance.new("Script")
+
+--po.main.top.Holder.serverpage.lego
+G2L["62"] = Instance.new("TextButton")
+
+--po.main.top.Holder.serverpage.lego.Script
+G2L["63"] = Instance.new("Script")
+
+--po.main.top.Holder.serverpage.lego.LocalScript
+G2L["64"] = Instance.new("LocalScript")
+
+--po.main.top.Holder.serverpage.lego.PartEvent
+G2L["65"] = Instance.new("RemoteEvent")
+
+--po.main.top.Holder.serverpage.r6
+G2L["66"] = Instance.new("TextButton")
+
+--po.main.top.Holder.serverpage.r6.Script
+G2L["67"] = Instance.new("Script")
+
+--po.main.top.Holder.serverpage.r6.LocalScript
+G2L["68"] = Instance.new("LocalScript")
+
+--po.main.top.Holder.serverpage.r6.RemoteEvent
+G2L["69"] = Instance.new("RemoteEvent")
+
+--po.main.top.Holder.serverpage.workspace
+G2L["70"] = Instance.new("TextButton")
+
+--po.main.top.Holder.serverpage.workspace.Script
+G2L["71"] = Instance.new("Script")
+
+--po.main.top.Holder.serverpage.6 3x
+G2L["72"] = Instance.new("TextButton")
+
+--po.main.top.Holder.serverpage.6 3x.Script
+G2L["73"] = Instance.new("Script")
+
+--po.main.top.Holder.serverpage.tornado
+G2L["74"] = Instance.new("TextButton")
+
+--po.main.top.Holder.serverpage.tornado.Script
+G2L["75"] = Instance.new("Script")
+
+--po.main.top.Holder.serverpage.tornado.LocalScript
+G2L["76"] = Instance.new("LocalScript")
+
+--po.main.top.Holder.serverpage.tornado.RemoteEvent
+G2L["77"] = Instance.new("RemoteEvent")
+
+--po.main.top.Holder.serverpage.shutdown
+G2L["78"] = Instance.new("TextButton")
+
+--po.main.top.Holder.serverpage.shutdown.Script
+G2L["79"] = Instance.new("Script")
+
+--po.main.top.Holder.serverpage.no kick
+G2L["80"] = Instance.new("TextButton")
+
+--po.main.top.Holder.serverpage.no kick.Script
+G2L["81"] = Instance.new("Script")
+
+--po.main.top.Holder.serverpage.song
+G2L["82"] = Instance.new("TextButton")
+
+--po.main.top.Holder.serverpage.song.Script
+G2L["83"] = Instance.new("Script")
+
+--po.main.top.Holder.serverpage.song.LocalScript
+G2L["84"] = Instance.new("LocalScript")
+
+--po.main.top.Holder.serverpage.song.PlaySoundEvent
+G2L["85"] = Instance.new("RemoteEvent")
+
+--po.main.top.Holder.serverpage.destroy
+G2L["86"] = Instance.new("TextButton")
+
+--po.main.top.Holder.serverpage.destroy.Script
+G2L["87"] = Instance.new("Script")
+
+--po.main.top.Holder.serverpage.ban
+G2L["88"] = Instance.new("TextButton")
+
+--po.main.top.Holder.serverpage.ban.Script
+G2L["89"] = Instance.new("Script")
+
+--po.main.top.Holder.serverpage.ban.LocalScript
+G2L["90"] = Instance.new("LocalScript")
+
+--po.main.top.Holder.serverpage.ban.BanEvent
+G2L["91"] = Instance.new("RemoteEvent")
+
+--po.main.top.Holder.serverpage.flood
+G2L["92"] = Instance.new("TextButton")
+
+--po.main.top.Holder.serverpage.flood.Script
+G2L["93"] = Instance.new("Script")
+
+--po.main.top.Holder.serverpage.flood.FloodEvent
+G2L["94"] = Instance.new("RemoteEvent")
+
+--po.main.top.Holder.serverpage.flood.LocalScript
+G2L["95"] = Instance.new("LocalScript")
+
+--po.main.top.Holder.serverpage.explode
+G2L["96"] = Instance.new("TextButton")
+
+--po.main.top.Holder.serverpage.explode.Script
+G2L["97"] = Instance.new("Script")
+
+--po.main.top.Holder.serverpage.explode.ClickDetector
+G2L["98"] = Instance.new("ClickDetector")
+
+--po.main.top.Holder.serverpage.fog
+G2L["99"] = Instance.new("TextButton")
+
+--po.main.top.Holder.serverpage.fog.Script
+G2L["100"] = Instance.new("Script")
+
+--po.main.top.Holder.serverpage.fog.ClickDetector
+G2L["101"] = Instance.new("ClickDetector")
+
+--po.main.top.Holder.serverpage.heli
+G2L["102"] = Instance.new("TextButton")
+
+--po.main.top.Holder.serverpage.heli.Script
+G2L["103"] = Instance.new("Script")
+
+--po.main.top.Holder.serverpage.heli.LocalScript
+G2L["104"] = Instance.new("LocalScript")
+
+--po.main.top.Holder.serverpage.heli.RemoteEvent
+G2L["105"] = Instance.new("RemoteEvent")
+
+--po.main.top.Holder.serverpage.invis
+G2L["106"] = Instance.new("TextButton")
+
+--po.main.top.Holder.serverpage.invis.Script
+G2L["107"] = Instance.new("Script")
+
+--po.main.top.Holder.serverpage.smok
+G2L["108"] = Instance.new("TextButton")
+
+--po.main.top.Holder.serverpage.smok.Script
+G2L["109"] = Instance.new("Script")
+
+--po.main.top.Holder.serverpage.pe
+G2L["110"] = Instance.new("TextButton")
+
+--po.main.top.Holder.serverpage.pe.Script
+G2L["111"] = Instance.new("Script")
+
+--po.main.top.Holder.serverpage.pe.LocalScript
+G2L["112"] = Instance.new("LocalScript")
+
+--po.main.top.Holder.serverpage.pe.RemoteEvent
+G2L["113"] = Instance.new("RemoteEvent")
+
+--po.main.top.Holder.serverpage.fling
+G2L["114"] = Instance.new("TextButton")
+
+--po.main.top.Holder.serverpage.fling.Script
+G2L["115"] = Instance.new("Script")
+
+--po.main.top.Holder.scriptspage
+G2L["116"] = Instance.new("Frame")
+
+--po.main.top.Holder.scriptspage.ssp
+G2L["117"] = Instance.new("TextButton")
+
+--po.main.top.Holder.scriptspage.ssp.LocalScript
+G2L["118"] = Instance.new("LocalScript")
+
+--po.main.top.Holder.scriptspage.ssp.RemoteEvent
+G2L["119"] = Instance.new("RemoteEvent")
+
+--po.main.top.Holder.scriptspage.ssp.Script
+G2L["120"] = Instance.new("Script")
+
+--po.main.top.Holder.scriptspage.nzi
+G2L["121"] = Instance.new("TextButton")
+
+--po.main.top.Holder.scriptspage.nzi.LocalScript
+G2L["122"] = Instance.new("LocalScript")
+
+--po.main.top.Holder.scriptspage.nzi.RemoteEvent
+G2L["123"] = Instance.new("RemoteEvent")
+
+--po.main.top.Holder.scriptspage.nzi.Script
+G2L["124"] = Instance.new("Script")
+
+--po.main.top.Holder.scriptspage.hax 1
+G2L["125"] = Instance.new("TextButton")
+
+--po.main.top.Holder.scriptspage.hax 1.LocalScript
+G2L["126"] = Instance.new("LocalScript")
+
+--po.main.top.Holder.scriptspage.hax 1.RemoteEvent
+G2L["127"] = Instance.new("RemoteEvent")
+
+--po.main.top.Holder.scriptspage.hax 1.Script
+G2L["128"] = Instance.new("Script")
+
+--po.main.top.Holder.scriptspage.hax 2
+G2L["129"] = Instance.new("TextButton")
+
+--po.main.top.Holder.scriptspage.hax 2.LocalScript
+G2L["130"] = Instance.new("LocalScript")
+
+--po.main.top.Holder.scriptspage.hax 2.RemoteEvent
+G2L["131"] = Instance.new("RemoteEvent")
+
+--po.main.top.Holder.scriptspage.hax 2.Script
+G2L["132"] = Instance.new("Script")
+
+--po.main.top.Holder.scriptspage.ship
+G2L["133"] = Instance.new("TextButton")
+
+--po.main.top.Holder.scriptspage.ship.LocalScript
+G2L["134"] = Instance.new("LocalScript")
+
+--po.main.top.Holder.scriptspage.ship.RemoteEvent
+G2L["135"] = Instance.new("RemoteEvent")
+
+--po.main.top.Holder.scriptspage.ship.Script
+G2L["136"] = Instance.new("Script")
+
+--po.main.top.Holder.scriptspage.not
+G2L["137"] = Instance.new("TextButton")
+
+--po.main.top.Holder.scriptspage.not.LocalScript
+G2L["138"] = Instance.new("LocalScript")
+
+--po.main.top.Holder.scriptspage.not.RemoteEvent
+G2L["139"] = Instance.new("RemoteEvent")
+
+--po.main.top.Holder.scriptspage.not.Script
+G2L["140"] = Instance.new("Script")
+
+--po.main.top.Holder.scriptspage.sledoni
+G2L["141"] = Instance.new("TextButton")
+
+--po.main.top.Holder.scriptspage.sledoni.Script
+G2L["142"] = Instance.new("Script")
+
+--po.main.top.Holder.scriptspage.sledoni.LocalScript
+G2L["143"] = Instance.new("LocalScript")
+
+--po.main.top.Holder.scriptspage.sledoni.RemoteEvent
+G2L["144"] = Instance.new("RemoteEvent")
+
+--po.main.top.Holder.scriptspage.sledoni yong
+G2L["145"] = Instance.new("TextButton")
+
+--po.main.top.Holder.scriptspage.sledoni yong.Script
+G2L["146"] = Instance.new("Script")
+
+--po.main.top.Holder.scriptspage.sledoni yong.LocalScript
+G2L["147"] = Instance.new("LocalScript")
+
+--po.main.top.Holder.scriptspage.sledoni yong.RemoteEvent
+G2L["148"] = Instance.new("RemoteEvent")
+
+--po.main.top.Holder.scriptspage.grand
+G2L["149"] = Instance.new("TextButton")
+
+--po.main.top.Holder.scriptspage.grand.Script
+G2L["150"] = Instance.new("Script")
+
+--po.main.top.Holder.scriptspage.grand.LocalScript
+G2L["151"] = Instance.new("LocalScript")
+
+--po.main.top.Holder.scriptspage.grand.RemoteEvent
+G2L["152"] = Instance.new("RemoteEvent")
+
+--po.main.top.Holder.scriptspage.exca
+G2L["153"] = Instance.new("TextButton")
+
+--po.main.top.Holder.scriptspage.exca.Script
+G2L["154"] = Instance.new("Script")
+
+--po.main.top.Holder.scriptspage.exca.LocalScript
+G2L["155"] = Instance.new("LocalScript")
+
+--po.main.top.Holder.scriptspage.exca.RemoteEvent
+G2L["156"] = Instance.new("RemoteEvent")
+
+--po.main.top.Holder.scriptspage.r6
+G2L["157"] = Instance.new("TextButton")
+
+--po.main.top.Holder.scriptspage.r6.Script
+G2L["158"] = Instance.new("Script")
+
+--po.main.top.Holder.scriptspage.r6.LocalScript
+G2L["159"] = Instance.new("LocalScript")
+
+--po.main.top.Holder.scriptspage.r6.RemoteEvent
+G2L["160"] = Instance.new("RemoteEvent")
+
+--po.main.top.Holder.scriptspage.primadon
+G2L["161"] = Instance.new("TextButton")
+
+--po.main.top.Holder.scriptspage.primadon.Script
+G2L["162"] = Instance.new("Script")
+
+--po.main.top.Holder.scriptspage.primadon.LocalScript
+G2L["163"] = Instance.new("LocalScript")
+
+--po.main.top.Holder.scriptspage.primadon.RemoteEvent
+G2L["164"] = Instance.new("RemoteEvent")
+
+--po.main.top.Holder.scriptspage.topkek
+G2L["165"] = Instance.new("TextButton")
+
+--po.main.top.Holder.scriptspage.topkek.Script
+G2L["166"] = Instance.new("Script")
+
+--po.main.top.Holder.scriptspage.topkek.LocalScript
+G2L["167"] = Instance.new("LocalScript")
+
+--po.main.top.Holder.scriptspage.topkek.RemoteEvent
+G2L["168"] = Instance.new("RemoteEvent")
+
+--po.main.top.Holder.scriptspage.subspace
+G2L["169"] = Instance.new("TextButton")
+
+--po.main.top.Holder.scriptspage.subspace.Script
+G2L["170"] = Instance.new("Script")
+
+--po.main.top.Holder.scriptspage.subspace.LocalScript
+G2L["171"] = Instance.new("LocalScript")
+
+--po.main.top.Holder.scriptspage.subspace.RemoteEvent
+G2L["172"] = Instance.new("RemoteEvent")
+
+--po.main.top.Holder.scriptspage.bom 2
+G2L["173"] = Instance.new("TextButton")
+
+--po.main.top.Holder.scriptspage.bom 2.Script
+G2L["174"] = Instance.new("Script")
+
+--po.main.top.Holder.scriptspage.bom 2.LocalScript
+G2L["175"] = Instance.new("LocalScript")
+
+--po.main.top.Holder.scriptspage.bom 2.RemoteEvent
+G2L["176"] = Instance.new("RemoteEvent")
+
+--po.main.top.Holder.scriptspage.pistol
+G2L["177"] = Instance.new("TextButton")
+
+--po.main.top.Holder.scriptspage.pistol.Script
+G2L["178"] = Instance.new("Script")
+
+--po.main.top.Holder.scriptspage.pistol.LocalScript
+G2L["179"] = Instance.new("LocalScript")
+
+--po.main.top.Holder.scriptspage.pistol.RemoteEvent
+G2L["180"] = Instance.new("RemoteEvent")
+
+--po.main.top.Holder.scriptspage.topkek 5
+G2L["181"] = Instance.new("TextButton")
+
+--po.main.top.Holder.scriptspage.topkek 5.Script
+G2L["182"] = Instance.new("Script")
+
+--po.main.top.Holder.scriptspage.topkek 5.LocalScript
+G2L["183"] = Instance.new("LocalScript")
+
+--po.main.top.Holder.scriptspage.topkek 5.RemoteEvent
+G2L["184"] = Instance.new("RemoteEvent")
+
+--po.main.top.Holder.scriptspage.mosque
+G2L["185"] = Instance.new("TextButton")
+
+--po.main.top.Holder.scriptspage.mosque.Script
+G2L["186"] = Instance.new("Script")
+
+--po.main.top.Holder.scriptspage.mosque.LocalScript
+G2L["187"] = Instance.new("LocalScript")
+
+--po.main.top.Holder.scriptspage.mosque.RemoteEvent
+G2L["188"] = Instance.new("RemoteEvent")
+
+--po.main.top.Holder.scriptspage.MLG
+G2L["189"] = Instance.new("TextButton")
+
+--po.main.top.Holder.scriptspage.MLG.Script
+G2L["190"] = Instance.new("Script")
+
+--po.main.top.Holder.scriptspage.MLG.LocalScript
+G2L["191"] = Instance.new("LocalScript")
+
+--po.main.top.Holder.scriptspage.MLG.RemoteEvent
+G2L["192"] = Instance.new("RemoteEvent")
+
+--po.main.top.Holder.scriptspage.hung
+G2L["193"] = Instance.new("TextButton")
+
+--po.main.top.Holder.scriptspage.hung.Script
+G2L["194"] = Instance.new("Script")
+
+--po.main.top.Holder.scriptspage.hung.LocalScript
+G2L["195"] = Instance.new("LocalScript")
+
+--po.main.top.Holder.scriptspage.hung.RemoteEvent
+G2L["196"] = Instance.new("RemoteEvent")
+
+--po.main.top.Holder.scriptspage.trsh hyub
+G2L["197"] = Instance.new("TextButton")
+
+--po.main.top.Holder.scriptspage.trsh hyub.Script
+G2L["198"] = Instance.new("Script")
+
+--po.main.top.Holder.scriptspage.trsh hyub.LocalScript
+G2L["199"] = Instance.new("LocalScript")
+
+--po.main.top.Holder.scriptspage.trsh hyub.RemoteEvent
+G2L["200"] = Instance.new("RemoteEvent")
+
+--po.main.top.Holder.scriptspage.gkv1
+G2L["201"] = Instance.new("TextButton")
+
+--po.main.top.Holder.scriptspage.gkv1.Script
+G2L["202"] = Instance.new("Script")
+
+--po.main.top.Holder.scriptspage.gkv1.LocalScript
+G2L["203"] = Instance.new("LocalScript")
+
+--po.main.top.Holder.scriptspage.gkv1.RemoteEvent
+G2L["204"] = Instance.new("RemoteEvent")
+
+--po.main.top.Holder.scriptspage.uzi
+G2L["205"] = Instance.new("TextButton")
+
+--po.main.top.Holder.scriptspage.uzi.Script
+G2L["206"] = Instance.new("Script")
+
+--po.main.top.Holder.scriptspage.uzi.LocalScript
+G2L["207"] = Instance.new("LocalScript")
+
+--po.main.top.Holder.scriptspage.uzi.RemoteEvent
+G2L["208"] = Instance.new("RemoteEvent")
+
+--po.main.top.Holder.scriptspage.guns
+G2L["209"] = Instance.new("TextButton")
+
+--po.main.top.Holder.scriptspage.guns.Script
+G2L["210"] = Instance.new("Script")
+
+--po.main.top.Holder.scriptspage.guns.LocalScript
+G2L["211"] = Instance.new("LocalScript")
+
+--po.main.top.Holder.scriptspage.guns.RemoteEvent
+G2L["212"] = Instance.new("RemoteEvent")
+
+--po.main.top.Holder.scriptspage.stra
+G2L["213"] = Instance.new("TextButton")
+
+--po.main.top.Holder.scriptspage.stra.Script
+G2L["214"] = Instance.new("Script")
+
+--po.main.top.Holder.scriptspage.stra.LocalScript
+G2L["215"] = Instance.new("LocalScript")
+
+--po.main.top.Holder.scriptspage.stra.RemoteEvent
+G2L["216"] = Instance.new("RemoteEvent")
+
+--po.main.top.Holder.scriptspage.k0p
+G2L["217"] = Instance.new("TextButton")
+
+--po.main.top.Holder.scriptspage.k0p.Script
+G2L["218"] = Instance.new("Script")
+
+--po.main.top.Holder.scriptspage.k0p.LocalScript
+G2L["219"] = Instance.new("LocalScript")
+
+--po.main.top.Holder.scriptspage.k0p.RemoteEvent
+G2L["220"] = Instance.new("RemoteEvent")
+
+--po.main.top.Holder.scriptspage.infinite yield
+G2L["221"] = Instance.new("TextButton")
+
+--po.main.top.Holder.scriptspage.infinite yield.Script
+G2L["222"] = Instance.new("Script")
+
+--po.main.top.Holder.scriptspage.infinite yield.LocalScript
+G2L["223"] = Instance.new("LocalScript")
+
+--po.main.top.Holder.scriptspage.infinite yield.RemoteEvent
+G2L["224"] = Instance.new("RemoteEvent")
+
+--po.main.top.Holder.scriptspage.exser
+G2L["225"] = Instance.new("TextButton")
+
+--po.main.top.Holder.scriptspage.exser.Script
+G2L["226"] = Instance.new("Script")
+
+--po.main.top.Holder.scriptspage.exser.LocalScript
+G2L["227"] = Instance.new("LocalScript")
+
+--po.main.t
